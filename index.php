@@ -14,8 +14,8 @@
 
     $arrayalunni = [new Alunno("marco","togni",27), new Alunno("mario","luigi",14), new Alunno("lorenzo","meucci",89)];
     
-    for ($i=0; $i < sizeof($arrayalunni); $i++) { 
-        echo $arrayalunni[$i]->GetAll() . "<br><br>";
+    foreach ($arrayalunni as $alunno) { 
+        echo $alunno->GetAll() . "<br><br>";
     }
     
     
