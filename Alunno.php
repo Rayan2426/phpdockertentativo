@@ -21,7 +21,7 @@ class Alunno{
     public function SetNome($nome){
         $this->nome = $nome;
     }
-    public function SetCognome($cogome){
+    public function SetCognome($cognome){
         $this->cognome = $cognome;
     }
 

@@ -3,8 +3,8 @@
 class Automobile extends Veicolo{
     private $modello;
 
-    function __constructor($marca,$targa,$modello){
-        parent::__constructor($marca,$targa);
+    public function __construct($marca,$targa,$modello){
+        parent::__construct($marca,$targa);
         $this->modello = $modello;
     }
 
